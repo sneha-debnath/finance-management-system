@@ -15,3 +15,6 @@ Built using HTML, CSS, JavaScript, Tailwind CSS, and Chart.js.
 - Monthly & yearly reports
 - Export data as PDF
 - AI-based investment advice
+
+## 🌐 Live Demo
+🔗 https://sneha-debnath.github.io/finance-management-system/
