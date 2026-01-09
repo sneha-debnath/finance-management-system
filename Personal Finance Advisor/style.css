@@ -1,0 +1,109 @@
+body {
+    background-image: url('Currency_Background.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Default text color set to white */
+  }
+  
+  .tab {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: rgba(96, 165, 250, 0.7); /* Slight transparency for better visibility */
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: rgba(100, 118, 243, 0.9); /* More opaque for active tab */
+    color: white;
+  }
+  
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content:not(.hidden) {
+    display: block;
+  }
+  
+  h1, h2, h3, p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Text shadow for contrast */
+  }
+  
+  button {
+    font-weight: bold;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for input fields */
+    color: #333;
+  }
+  
+  input[type="number"]:focus,
+  input[type="text"]:focus {
+    background-color: rgba(255, 255, 255, 1); /* Full white when focused */
+    outline: none;
+  }
+  
+  /* Boundary Box Styling */
+  .container-box {
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for boundary box */
+    border-radius: 10px; /* Rounded corners for the box */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow for separation */
+  }
+  
+  .container-box h2 {
+    text-align: center;
+  }
+  
+  .container-box canvas {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #overview p {
+    color: white;
+  }
+
+  #budget-result, #investment-advice, #networth-result {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for results */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+  }
+  
+  input[type="number"]:focus,
+  input[type="text"]:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+  }
+  
+  /* Added styling for tabs and buttons */
+  .tabs {
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgba(100, 118, 243, 0.7);
+  }
+  
+  .tab.active {
+    background-color: rgba(96, 165, 250, 1);
+    color: white;
+  }
+  
+  input[type="number"] {
+    margin: 8px 0;
+  }  
